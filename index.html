@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="ko"> <head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="google-site-verification" content="n4-1ozaeMCwhPGyVKacpyqv83obVxsHn05HYMkGYSXM"><meta name="naver-site-verification" content="25c6ea381a515ed2ac493147e77d1c2707f531c0"><title>Agrippane · 아그립파네</title><!-- no-JS 폴백: 기본 한국어 --><meta http-equiv="refresh" content="0; url=/ko/"><link rel="canonical" href="/ko/"><script>(function(){const koHome = "/ko/";
+const enHome = "/en/";
+const jaHome = "/ja/";
+
+      // 1) 저장된 수동 선택 우선 → 2) 브라우저 언어 (IP 아님, SEO 안전)
+      const homes = { ko: koHome, en: enHome, ja: jaHome };
+      let lang;
+      try { lang = localStorage.getItem('agrippane_lang'); } catch (e) {}
+      if (lang !== 'ko' && lang !== 'en' && lang !== 'ja') {
+        const b = (navigator.language || 'ko').toLowerCase();
+        lang = b.indexOf('ja') === 0 ? 'ja' : b.indexOf('en') === 0 ? 'en' : 'ko';
+      }
+      location.replace(homes[lang] || koHome);
+    })();</script></head> <body> <p>Redirecting… · <a href="/ko/">한국어</a> / <a href="/en/">English</a> / <a href="/ja/">日本語</a></p> </body></html>
